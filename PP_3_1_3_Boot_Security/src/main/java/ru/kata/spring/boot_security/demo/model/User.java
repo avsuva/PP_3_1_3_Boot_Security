@@ -11,7 +11,6 @@ import java.util.stream.Collectors;
 
 @Entity
 @Table(name = "users")
-@Component
 public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
